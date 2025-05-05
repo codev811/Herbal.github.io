@@ -1,0 +1,18 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+  
+  .btn-blink {
+    animation: blink 1s infinite;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-blink:hover {
+    animation: none;
+  }
+  
